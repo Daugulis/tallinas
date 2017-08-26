@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tallinas 86</title>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script> 
+<script src="imageMapResizer.js" type="text/javascript"></script> 
+<script src="jquery.maphilight.js?2" type="text/javascript"></script>
+<style>
+.m-p-img2 { 
+	position:absolute; 
+	left:0px; 
+	top:0px; 
+	width:100%; 
+	height:100%; 
+	overflow: hidden; 
+}
+.m-p-img2 img {
+	position: absolute;
+	opacity: 0;
+}
+</style>
+</head>
+<body>
+<div class="left-side">
+	<div class="l-s-header">
+    	<a href="index.html" class="logo">Tallinas <b class="color">86</b></a>
+        <div class="languages">
+        	<a href="">Lat</a>
+            <a href="" class="selected">Rus</a>
+            <a href="">Eng</a>
+        </div>
+    </div>
+    <div class="l-s-main">
+    	<div class="l-s-m-menu">
+        	<a href="index.html" class="selected color">Выбор квартиры</a> 
+			<a href="">О проекте</a> 
+			<a href="">Галерея </a> 
+			<a href="contacts.html">Контакты</a> 
+        </div>
+        <div class="l-s-m-share">
+            <!-- AddThis Button BEGIN -->
+            <div class="addthis_toolbox addthis_default_style addthis_32x32_style" >
+                <a class="addthis_button_facebook"></a>
+                <a class="addthis_button_draugiem"></a>
+                <a class="addthis_button_twitter"></a>
+                <a class="addthis_button_google_plusone_share"></a>
+                <a class="addthis_button_email"></a>
+            </div>
+            <script type="text/javascript">var addthis_config = {"data_track_addressbar":false};</script>
+            <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50e808b26b4f2c23"></script>
+            <!-- AddThis Button END -->
+        </div>
+    </div>
+    <div class="l-s-footer">
+    	<a href="" class="button color">Задать вопрос</a>
+    </div>
+</div>
+<div class="main">
+	<div class="m-container">
+    	<div class="choose-floor-window" style="z-index: 999;"><a href="" class="close-window"><i></i></a>
+        	<b>ВЫБЕРИТЕ ЭТАЖ</b>
+            	<div class="c-f-w-menu">
+                    <a href="" data-level="5">5 этаж</a>
+                    <a href="floor.html" data-level="4">4 этаж</a>
+                    <a href="" data-level="3">3 этаж</a>
+                    <a href="" data-level="2">2 этаж</a>
+                </div>
+        </div>
+    	<div class="m-p-img" id="m-p-img" style="z-index: 997;"></div>
+		<div class="m-p-img2" style="z-index: 998;">
+			<img src="img/tallinas86.jpg" border="0" width="1280" height="815" orgWidth="1280" orgHeight="815" usemap="#map1" alt="" />
+			<map name="map1" id="map1">
+			<area id="s2"  alt="s2" title="fhfgh" href="javascript:;" shape="poly" coords="229,559,604,424,1155,552,1165,620,609,548,219,626" style="outline:none;" target="_self"     />
+			<area id="s3" alt="s3" title="s3" href="javascript:;" shape="poly" coords="234,498,606,317,1148,490,1154,541,606,403,228,546" style="outline:none;" target="_self"     />
+			<area id="s4" alt="s4" title="s4" href="javascript:;" shape="poly" coords="243,431,607,212,1134,427,1143,484,608,316,237,492" style="outline:none;" target="_self"     />
+			<area id="s5" alt="s5" title="s5" href="javascript:;" shape="poly" coords="248,367,606,101,1128,367,1134,418,607,207,247,428,244,427" style="outline:none;" target="_self"     />
+			</map>
+		</div>
+    </div>
+</div>
+
+<script>
+backgroundImage = '';
+function startResize()
+{
+	backgroundImage = new Image();
+    backgroundImage.src = $('#m-p-img').css('background-image').replace(/"/g,"").replace(/url\(|\)$/ig, "");
+    backgroundImage.onload = function() {
+		setCImageSize();
+	};
+}
+
+function setCImageSize()
+{
+	//var elem1 = document.getElementById("m-p-img");
+	//var style = window.getComputedStyle(elem1, null);
+	//console.log(style);
+
+	$('.m-p-img2 div').remove();
+	$('.m-p-img2').append('<img src="img/tallinas86.jpg" border="0" width="1280" height="815" orgWidth="1280" orgHeight="815" usemap="#map1" alt="" />');
+
+	console.log('ddd');
+	
+        var width = backgroundImage.width;
+        var height = backgroundImage.height;
+
+        var object = $('#m-p-img');
+
+        /* Step 1 - Get the ratio of the div + the image */
+        var imageRatio = width/height;
+        var coverRatio = object.outerWidth()/object.outerHeight();
+
+        /* Step 2 - Work out which ratio is greater */
+        if (imageRatio >= coverRatio) {
+            /* The Height is our constant */
+            var coverHeight = object.outerHeight();
+            var scale = (coverHeight / height);
+            var coverWidth = width * scale;
+        } else {
+            /* The Width is our constant */
+            var coverWidth = object.outerWidth();
+            var scale = (coverWidth / width);
+            var coverHeight = height * scale;
+        }
+        var cover = coverWidth + 'px ' + coverHeight + 'px';
+        console.log('scale: ' + scale + ', width: ' + coverWidth + ', height: ' + coverHeight + ', cover property: ' + cover);
+
+		var img2 = $('.m-p-img2 img');
+		img2.css('width', coverWidth + 'px');
+		img2.css('height', coverHeight + 'px');
+
+		var h = object.height();
+		var w = object.width();
+
+		var t = (coverHeight - h) / 2;
+		var l = (coverWidth - w) / 2;
+
+		img2.css('left', '-' + l + 'px');
+		img2.css('top', '-' + t + 'px');
+		//mp.scaleImageMap().resizeMap();
+		console.log(mp);
+		
+		mp = $('map').imageMapResize();
+		$('.m-p-img2 img').maphilight();
+		$('.c-f-w-menu a').each(function() {
+			$(this).mouseover(function() {
+				$('#s'+$(this).attr('data-level')).mouseover();
+			});
+			$(this).mouseout(function() {
+				$('#s'+$(this).attr('data-level')).mouseout();
+			});
+		});
+}
+var mp = '';
+$(document).ready(function() {
+	startResize();
+	$(window).resize(setCImageSize);
+});
+
+</script>
+
+</body>
+</html>

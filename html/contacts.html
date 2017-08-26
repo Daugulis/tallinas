@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tallinas 86</title>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map');
+        var mapOptions = {
+          center: new google.maps.LatLng(56.956659, 24.147919),
+          zoom: 16,
+		  scrollwheel: false,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }		
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+		var companyPos = new google.maps.LatLng(56.956659, 24.147919);
+		var companyMarker = new google.maps.Marker({
+		  position: companyPos,
+		  map: map,
+		  title:"",
+		  icon: new google.maps.MarkerImage('img/map-marker.png'),
+		  zIndex: 3});
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);	  
+</script>
+</head>
+<body>
+<div class="left-side">
+	<div class="l-s-header">
+    	<a href="index.html" class="logo">Tallinas <b class="color">86</b></a>
+        <div class="languages">
+        	<a href="">Lat</a>
+            <a href="" class="selected">Rus</a>
+            <a href="">Eng</a>
+        </div>
+    </div>
+    <div class="l-s-main">
+    	<div class="l-s-m-menu">
+        	<a href="index.html">Выбор квартиры</a> 
+			<a href="about.html">О проекте</a> 
+			<a href="gallery.html">Галерея </a> 
+			<a href="contacts.html" class="selected color">Контакты</a> 
+        </div>
+        <div class="l-s-m-share">
+            <!-- AddThis Button BEGIN
+            <div class="addthis_toolbox addthis_default_style addthis_32x32_style" >
+                <a class="addthis_button_facebook"></a>
+                <a class="addthis_button_draugiem"></a>
+                <a class="addthis_button_twitter"></a>
+                <a class="addthis_button_google_plusone_share"></a>
+                <a class="addthis_button_email"></a>
+            </div>
+            <script type="text/javascript">var addthis_config = {"data_track_addressbar":false};</script>
+            <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50e808b26b4f2c23"></script>
+            <!-- AddThis Button END -->
+        </div>
+    </div>
+    <div class="l-s-footer">
+    	<a href="contacts.html" class="button color">Задать вопрос</a>
+    </div>
+</div>
+<div class="main">
+	<div class="m-container">
+		<div class="contacts-page">
+        	<div class="c-p-container">
+                <b>SIA "RĪGAS 51"</b>
+                    <div class="c-p-line">
+                        <div class="c-p-l-left">Рег. номер:</div>
+                        <div class="c-p-l-right">
+                            <a>LV 40103358684</a>
+                        </div>
+                    </div>
+                    <div class="c-p-line">
+                        <div class="c-p-l-left">Адрес.:</div>
+                        <div class="c-p-l-right">
+                            <a>Duntes iela 23A, Rīga, LV-1005</a>
+                        </div>
+                    </div>
+                    <div class="c-p-line">
+                        <div class="c-p-l-left">Тел.:</div>
+                        <div class="c-p-l-right">
+                            <a>+371 67468844</a>
+                        </div>
+                    </div>
+                    <div class="c-p-line">
+                        <div class="c-p-l-left">Моб.:</div>
+                        <div class="c-p-l-right">
+                            <a>+371 27477732</a>
+                        </div>
+                    </div>
+                    <div class="c-p-line">
+                        <div class="c-p-l-left">Эл почта.:</div>
+                        <div class="c-p-l-right">
+                            <a class="" id="mail">info@tallinas86.lv</a>
+                        </div>
+                    </div>
+                        <div class="c-b-item work-time">
+                            <div class="c-b-i-right">
+                                <div class="work-time-table">
+                                    <div class="w-t-block">
+                                        <p class="w-t-head color">Пн.</p>
+                                        <p>10-18</p>
+                                    </div>
+                                    <div class="w-t-block">
+                                        <p class="w-t-head color">Вт.</p>
+                                        <p>10-18</p>
+                                    </div>
+                                    <div class="w-t-block">
+                                        <p class="w-t-head color">Ср.</p>
+                                        <p>10-18</p>
+                                    </div>
+                                    <div class="w-t-block">
+                                        <p class="w-t-head color">Чт.</p>
+                                        <p>10-18</p>
+                                    </div>
+                                    <div class="w-t-block">
+                                        <p class="w-t-head color">Пт.</p>
+                                        <p>10-18</p>
+                                    </div>
+                                    <div class="w-t-block">
+                                        <p class="w-t-head free-day">Сб.</p>
+                                        <p>-</p>
+                                    </div>
+                                    <div class="w-t-block">
+                                        <p class="w-t-head free-day">Вс.</p>
+                                        <p>-</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <form>
+                        <input type="text" placeholder="Ваше Имя"/>
+                        <input type="text" placeholder="Телефон"/>
+                        <input type="text" placeholder="Эл. почта"/>
+                        <textarea placeholder="Текст сообщения"></textarea>
+                        <a href="" class="button color">Отправить</a>
+                    </form>
+        	</div>
+        </div>
+        <div id="map"></div>
+    </div>
+</div>
+</body>
+</html>

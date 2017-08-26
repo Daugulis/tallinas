@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Trifecta Example</title>
+    <link href="css/bootstrap-3.3.1.min.css" rel="stylesheet" />
+    <link href="css/map-trifecta.css" rel="stylesheet" /> <!--Needed for Zoom and img-->
+<style>
+#myImageMap {
+	width: 50%;
+}
+</style>
+</head>
+<body>
+
+    <!--MAIN CONTAINER -->
+    <div class="container" id="main">
+        <div class="row">
+
+            <!--IMAGE MAP-->
+            <div class="col-lg-5 col-lg-push-7">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4>Shapes Image</h4>
+                    </div>
+                    <div class="panel-body">
+                        <center>
+                            <img id="myImageMap" src="/img/plan-1.png" usemap="#shapesMap">
+                            <map name="shapesMap">
+                                <area   alt="fs1" title="fs1" href="/<!---cLANG--->/<!---OBJ--->/12/" shape="poly" data-t="24" data-x="262" data-y="130" coords="41,41,1041,42,1041,491,42,491" style="outline:none;" target="_self"     />
+								<area  data-mapid="2" alt="fs2" title="fs2" href="" shape="poly" data-t="24" data-x="262" data-y="130" coords="1704,340,1745,340,1744,40,2170,40,2169,531,1746,530,1746,401,1705,401" style="outline:none;" target="_self"     />
+								<area  data-mapid="3" alt="fs3" title="fs3" href="" shape="poly" data-t="24" data-x="262" data-y="130" coords="1602,532,1709,533,1709,626,1746,626,1745,542,2170,542,2169,787,2197,787,2197,1099,1747,1099,1746,686,1708,686,1709,729,1603,729" style="outline:none;" target="_self"     />
+								<area  data-mapid="4" alt="fs4" title="fs4" href="" shape="poly" data-t="24" data-x="262" data-y="130" coords="1593,282,1283,283,1284,995,1705,995,1705,740,1592,740" style="outline:none;" target="_self"     />
+								<area  data-mapid="5" alt="fs5" title="fs5" href="" shape="poly" data-t="24" data-x="262" data-y="130" coords="1283,1007,1705,1006,1704,1525,1629,1526,1629,1505,1284,1505" style="outline:none;" target="_self"     />
+                            </map>
+                        </center>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--TABLE ROWS-->
+            <div class="col-lg-7 col-lg-pull-5">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4>Shapes Table</h4>
+                    </div>
+
+                    <div class="panel-body">
+                    
+                </div>
+            </div>
+        </div>
+
+        <hr>
+    </div>
+
+
+    <div id="scripts">
+
+        <!-- 3rd party libraries -->
+        <script src="js/jquery-1.11.1.min.js"></script>
+
+        <!--For Responsive, Hilight, Zoom for Image Map & Table -->
+        <script src="js/jquery.map-trifecta.min.js"></script>
+        <script>
+            $("img[usemap]").mapTrifecta();
+        </script>
+
+    </div>
+
+</body>
+</html>

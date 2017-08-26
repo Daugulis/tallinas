@@ -1,0 +1,352 @@
+2.STĀVS		
+1 ISTABA	DZĪVOKLIS NR.1	m2
+1.1.	Priekštelpa	2.7
+1.2.	Istaba	14.07
+1.3.	Virtuves zona 	4.03
+1.4.	Tualete ar dušu	3.21
+		24.01
+2 ISTABAS	DZĪVOKLIS NR.2	m2
+2.1.	Priekštelpa	2.52
+2.2.	Gaitenis	6.07
+2.3.	Tualete ar dušu	3.38
+2.4.	Garderobe	3.06
+2.5.	Istaba	10.15
+2.6.	Istaba ar virtuvi	17.74
+		42.92
+1 ISTABA	DZĪVOKLIS NR.3	m2
+3.1.	Priekštelpa	6.45
+3.2.	Tualete ar dušu	4.71
+3.3.	Virtuves zona 	5.66
+3.4.	Istaba	17.06
+		33.88
+1 ISTABA	DZĪVOKLIS NR.4	m2
+4.1.	Priekštelpa	5.29
+4.2.	Tualete ar dušu	4.51
+4.3.	Virtuves zona 	5.23
+4.4.	Istaba	16.76
+		31.79
+2 ISTABAS	DZĪVOKLIS NR.5	m2
+5.1.	Priekštelpa	4.28
+5.2.	Tualete ar vannu	4.6
+5.3.	Virtuve	16.93
+5.4.	Priekštelpa	2.3
+5.5.	Istaba	14.8
+5.6.	Istaba	14.86
+5.7.	Tualete ar dušu	2.8
+		60.57
+3 ISTABAS	DZĪVOKLIS NR.6	m2
+6.1.	Priekštelpa	4.93
+6.2.	Tualete ar vannu	4.95
+6.3.	Gaitenis	4.76
+6.4.	Tualete	2.6
+6.5.	Istaba	11.66
+6.6.	Istaba	10.81
+6.7.	Istaba ar virtuvi	29.6
+		69.31
+2 ISTABAS	DZĪVOKLIS NR.7	m2
+7.1.	Priekštelpa	3.37
+7.2.	Gaitenis	4.73
+7.3.	Istaba ar virtuvi	17.48
+7.4.	Istaba	10.36
+7.5.	Tualete ar dušu	4.2
+		40.14
+2 ISTABAS	DZĪVOKLIS NR.8	m2
+8.1.	Priekštelpa	2.86
+8.2.	Priekštelpa	4.42
+8.3.	Tualete ar dušu	3.72
+8.4.	Istaba	9.77
+8.5.	Istaba ar virtuvi	16.06
+		36.83
+2 ISTABAS	DZĪVOKLIS NR.9	m2
+9.1.	Priekštelpa	2.28
+9.2.	Tualete ar dušu	3.96
+9.3.	Virtuves zona 	7.33
+9.4.	Istaba	13.49
+9.5.	Istaba	10.22
+9.6.	Garderobes telpa	5.05
+		42.33
+2 ISTABAS	DZĪVOKLIS NR.10	m2
+10.1.	Priekštelpa	3.69
+10.2.	Priekštelpa	6.76
+10.3.	Tualete ar dušu	4.8
+10.4.	Istaba ar virtuvi	17.82
+10.5.	Istaba	10.03
+		43.1
+1 ISTABA	DZĪVOKLIS NR.11	m2
+11.1.	Priekštelpa	4.6
+11.2.	Istaba ar virtuvi	24.72
+11.3.	Tualete ar dušu	4.46
+		33.78
+3 ISTABAS	DZĪVOKLIS NR.12	m2
+12.1.	Priekštelpa	3.25
+12.2.	Tualete ar dušu	4.57
+12.3.	Istaba ar virtuvi	27.11
+12.4.	Priekštelpa	6.9
+12.5.	Istaba	11.75
+12.6.	Istaba	11.73
+12.7.	Tualete ar vannu	4.3
+		69.61
+3.STĀVS		
+1 ISTABA	DZĪVOKLIS NR.13	m2
+13.1.	Priekštelpa	2.7
+13.2.	Istaba	14.92
+13.3.	Virtuves zona 	4.19
+13.4.	Tualete ar dušu	3.17
+		24.98
+2 ISTABAS	DZĪVOKLIS NR.14	m2
+14.1.	Priekštelpa	2.52
+14.2.	Gaitenis	5.94
+14.3.	Tualete ar dušu	3.38
+14.4.	Garderobe	2.87
+14.5.	Istaba	10.12
+14.6.	Istaba ar virtuvi	17.86
+		42.69
+1 ISTABA	DZĪVOKLIS NR.15	m2
+15.1.	Priekštelpa	6.63
+15.2.	Tualete ar dušu	5.11
+15.3.	Virtuves zona 	5.66
+15.4.	Istaba	17.63
+		35.03
+1 ISTABA	DZĪVOKLIS NR.16	m2
+16.1.	Priekštelpa	5.53
+16.2.	Tualete ar dušu	4.68
+16.3.	Virtuves zona 	5.23
+16.4.	Istaba	17.22
+		32.66
+2 ISTABAS	DZĪVOKLIS NR.17	m2
+17.1.	Priekštelpa	3.95
+17.2.	Tualete ar vannu	4.55
+17.3.	Virtuve	17.53
+17.4.	Priekštelpa	2.35
+17.5.	Istaba	15.28
+17.6.	Istaba	15.33
+17.7.	Tualete ar dušu	2.82
+		61.81
+3 ISTABAS	DZĪVOKLIS NR.18	m2
+18.1.	Priekštelpa	5.27
+18.2.	Tualete ar vannu	4.58
+18.3.	Gaitenis	5.46
+18.4.	Tualete	2.6
+18.5.	Istaba	11.67
+18.6.	Istaba	11.13
+18.7.	Istaba ar virtuvi	34.13
+		74.84
+2 ISTABAS	DZĪVOKLIS NR.19	m2
+19.1.	Priekštelpa	3.66
+19.2.	Gaitenis	4.7
+19.3.	Istaba ar virtuvi	18.4
+19.4.	Istaba	10.7
+19.5.	Tualete ar dušu	4.25
+		41.71
+2 ISTABAS	DZĪVOKLIS NR.20	m2
+20.1.	Priekštelpa	2.96
+20.2.	Priekštelpa	4.51
+20.3.	Tualete ar dušu	3.78
+20.4.	Istaba	9.87
+20.5.	Istaba ar virtuvi	16.59
+		37.71
+2 ISTABAS	DZĪVOKLIS NR.21	m2
+21.1.	Priekštelpa	2.11
+21.2.	Tualete ar dušu	4.26
+21.3.	Virtuves zona 	6.8
+21.4.	Istaba	14.74
+21.5.	Istaba	10.33
+21.6.	Garderobes telpa	5.06
+		43.3
+2 ISTABAS	DZĪVOKLIS NR.22	m2
+22.1.	Priekštelpa	3.76
+22.2.	Priekštelpa	7.55
+22.3.	Tualete ar dušu	5.18
+22.4.	Istaba ar virtuvi	18.38
+22.5.	Istaba	10.35
+		45.22
+1 ISTABA	DZĪVOKLIS NR.23	m2
+23.1.	Priekštelpa	5.1
+23.2.	Istaba ar virtuvi	25.14
+23.3.	Tualete ar dušu	5
+		35.24
+3 ISTABAS	DZĪVOKLIS NR.24	m2
+24.1.	Priekštelpa	3.44
+24.2.	Tualete ar dušu	4.71
+24.3.	Istaba ar virtuvi	28
+24.4.	Priekštelpa	7.73
+24.5.	Istaba	12
+24.6.	Istaba	12.12
+24.7.	Tualete ar vannu	4.7
+		72.7
+4.STĀVS		
+1 ISTABA	DZĪVOKLIS NR.25	m2
+25.1.	Priekštelpa	2.7
+25.2.	Istaba	14.82
+25.3.	Virtuves zona 	4.25
+25.4.	Tualete ar dušu	3.3
+		25.07
+2 ISTABAS	DZĪVOKLIS NR.26	m2
+26.1.	Priekštelpa	2.51
+26.2.	Gaitenis	6
+26.3.	Tualete ar dušu	3.37
+26.4.	Garderobe	2.97
+26.5.	Istaba	10.35
+26.6.	Istaba ar virtuvi	18.57
+		43.77
+1 ISTABA	DZĪVOKLIS NR.27	m2
+27.1.	Priekštelpa	6.53
+27.2.	Tualete ar dušu	5.14
+27.3.	Virtuves zona 	5.66
+27.4.	Istaba	17.82
+		35.15
+1 ISTABA	DZĪVOKLIS NR.28	m2
+28.1.	Priekštelpa	5.47
+28.2.	Tualete ar dušu	4.59
+28.3.	Virtuves zona 	5.23
+28.4.	Istaba	17.73
+		33.02
+2 ISTABAS	DZĪVOKLIS NR.29	m2
+29.1.	Priekštelpa	4.08
+29.2.	Tualete ar vannu	4.4
+29.3.	Virtuve	17.54
+29.4.	Priekštelpa	2.49
+29.5.	Istaba	15.51
+29.6.	Istaba	15.56
+29.7.	Tualete ar dušu	2.78
+		62.36
+3 ISTABAS	DZĪVOKLIS NR.30	m2
+30.1.	Priekštelpa	4.96
+30.2.	Tualete ar vannu	4.55
+30.3.	Gaitenis	5.6
+30.4.	Tualete	2.59
+30.5.	Istaba	12.09
+30.6.	Istaba	11.21
+30.7.	Istaba ar virtuvi	34.69
+		75.69
+2 ISTABAS	DZĪVOKLIS NR.31	m2
+31.1.	Priekštelpa	3.6
+31.2.	Gaitenis	5.02
+31.3.	Istaba ar virtuvi	17.97
+31.4.	Istaba	10.66
+31.5.	Tualete ar dušu	4.57
+		41.82
+2 ISTABAS	DZĪVOKLIS NR.32	m2
+32.1.	Priekštelpa	2.55
+32.2.	Priekštelpa	4.46
+32.3.	Tualete ar dušu	3.67
+32.4.	Istaba	10.15
+32.5.	Istaba ar virtuvi	16.32
+		37.15
+2 ISTABAS	DZĪVOKLIS NR.33	m2
+33.1.	Priekštelpa	2.34
+33.2.	Tualete ar dušu	4.56
+33.3.	Virtuves zona 	6.47
+33.4.	Istaba	14.98
+33.5.	Istaba	10.44
+33.6.	Garderobes telpa	5.07
+		43.86
+2 ISTABAS	DZĪVOKLIS NR.34	m2
+34.1.	Priekštelpa	3.78
+34.2.	Priekštelpa	7.68
+34.3.	Tualete ar dušu	5.45
+34.4.	Istaba ar virtuvi	18.22
+34.5.	Istaba	10.26
+		45.39
+1 ISTABA	DZĪVOKLIS NR.35	m2
+35.1.	Priekštelpa	5.25
+35.2.	Istaba ar virtuvi	25.29
+35.3.	Tualete ar dušu	5.52
+		36.06
+3 ISTABAS	DZĪVOKLIS NR.36	m2
+36.1.	Priekštelpa	3.56
+36.2.	Tualete ar dušu	4.46
+36.3.	Istaba ar virtuvi	28.78
+36.4.	Priekštelpa	7.85
+36.5.	Istaba	12.26
+36.6.	Istaba	12.19
+36.7.	Tualete ar vannu	4.87
+		73.97
+5.STĀVS		
+1 ISTABA	DZĪVOKLIS NR.37	m2
+37.1.	Priekštelpa	2.69
+37.2.	Istaba	15.32
+37.3.	Virtuves zona 	4.27
+37.4.	Tualete ar dušu	3.17
+		25.45
+2 ISTABAS	DZĪVOKLIS NR.38	m2
+38.1.	Priekštelpa	2.42
+38.2.	Gaitenis	5.54
+38.3.	Tualete ar dušu	3.37
+38.4.	Garderobe	3.07
+38.5.	Istaba	11
+38.6.	Istaba ar virtuvi	18.85
+		44.25
+1 ISTABA	DZĪVOKLIS NR.39	m2
+39.1.	Priekštelpa	6.45
+39.2.	Tualete ar dušu	4.94
+39.3.	Virtuves zona 	5.66
+39.4.	Istaba	17.88
+		34.93
+1 ISTABA	DZĪVOKLIS NR.40	m2
+40.1.	Priekštelpa	5.36
+40.2.	Tualete ar dušu	4.48
+40.3.	Virtuves zona 	5.23
+40.4.	Istaba	17.59
+		32.66
+2 ISTABAS	DZĪVOKLIS NR.41	m2
+41.1.	Priekštelpa	3.87
+41.2.	Tualete ar vannu	4.57
+41.3.	Virtuve	17.95
+41.4.	Priekštelpa	2.27
+41.5.	Istaba	14.8
+41.6.	Istaba	15.52
+41.7.	Tualete ar dušu	2.77
+		61.75
+3 ISTABAS	DZĪVOKLIS NR.42	m2
+42.1.	Priekštelpa	4.89
+42.2.	Tualete ar vannu	4.6
+42.3.	Gaitenis	5.83
+42.4.	Tualete	2.73
+42.5.	Istaba	11.71
+42.6.	Istaba	10.87
+42.7.	Istaba ar virtuvi	33.48
+		74.11
+2 ISTABAS	DZĪVOKLIS NR.43	m2
+43.1.	Priekštelpa	3.57
+43.2.	Gaitenis	5.12
+43.3.	Istaba ar virtuvi	17.46
+43.4.	Istaba	10.65
+43.5.	Tualete ar dušu	4.69
+		41.49
+2 ISTABAS	DZĪVOKLIS NR.44	m2
+44.1.	Priekštelpa	2.94
+44.2.	Priekštelpa	4.32
+44.3.	Tualete ar dušu	3.64
+44.4.	Istaba	11.41
+44.5.	Istaba ar virtuvi	16.32
+		38.63
+2 ISTABAS	DZĪVOKLIS NR.45	m2
+45.1.	Priekštelpa	2.07
+45.2.	Tualete ar dušu	4.01
+45.3.	Virtuves zona 	6.89
+45.4.	Istaba	14.9
+45.5.	Istaba	10.34
+45.6.	Garderobes telpa	5.15
+		43.36
+2 ISTABAS	DZĪVOKLIS NR.46	m2
+46.1.	Priekštelpa	3.76
+46.2.	Priekštelpa	7.98
+46.3.	Tualete ar dušu	5.53
+46.4.	Istaba ar virtuvi	18.3
+46.5.	Istaba	9.94
+		45.51
+1 ISTABA	DZĪVOKLIS NR.47	m2
+47.1.	Priekštelpa	5.56
+47.2.	Istaba ar virtuvi	24.66
+47.3.	Tualete ar dušu	5.66
+		35.88
+3 ISTABAS	DZĪVOKLIS NR.48	m2
+48.1.	Priekštelpa	4.43
+48.2.	Istaba	13.94
+48.3.	Gaitenis	13.05
+48.4.	Istaba ar virtuvi	35.52
+48.5.	Tualete ar vannu	5.22
+		
+		
+		72.16
